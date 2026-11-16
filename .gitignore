@@ -1,0 +1,37 @@
+# Godot
+.godot/
+*.translation
+export.cfg
+export_presets.cfg.orig
+
+# Builds
+build/
+dist/
+*.tmp
+
+# Binaries (собираются CI, в репозитории не хранятся)
+*.exe
+*.apk
+*.dmg
+*.pck
+*.sparsepck
+
+# Logs / temp
+*.log
+user/
+perf/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+godot_bin
+
+
+# Windows engine binaries are staged by build.py
+/DroneFlames.exe
+/DroneFlames_Debug.exe
+/DroneFlames_console.exe
+*.dll
+rust/dfarmy/target/
